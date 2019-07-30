@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:emzari_calculator/pages/calculator_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,9 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-
-      ),
+      home: CalculatorPage(title: 'CALCULATOR'),
     );
   }
 }
